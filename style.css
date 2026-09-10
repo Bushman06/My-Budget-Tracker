@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f4f4f4;
+}
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#main-heading {
+    color: darkblue;
+}
+
+
+header p {
+    font-size: 18px;
+}
+
+
+.expense-section {
+    background-color: lightblue;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.expense-section > h2 {
+    color: darkblue;
+}
+
+input {
+    display: block;
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+input:not([type="submit"]) {
+    border: 2px solid #999;
+}
+
+input:focus {
+    background-color: #ffffcc;
+    outline: none;
+}
+
+select {
+    display: block;
+    width: 320px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+details {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#expenses-list {
+    background-color: white;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#expenses-list td {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+th {
+    padding: 12px;
+    background-color: darkblue;
+    color: white;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: lightblue;
+}
+
+.video-section {
+    margin-top: 30px;
+    text-align: center;
+}
